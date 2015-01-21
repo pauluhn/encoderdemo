@@ -31,6 +31,7 @@
 		841399FA16B1842B00FAD610 /* RTSPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 841399F916B1842B00FAD610 /* RTSPMessage.m */; };
 		846119C716D3BF8D00468D98 /* CameraServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 846119C616D3BF8D00468D98 /* CameraServer.m */; };
 		DAE1E56F1A6F18ED00494EA1 /* rtp.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E56E1A6F18ED00494EA1 /* rtp.m */; };
+		DAE1E5781A6F1FAB00494EA1 /* rtp_audio.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E5771A6F1FAB00494EA1 /* rtp_audio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,9 @@
 		846119C616D3BF8D00468D98 /* CameraServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraServer.m; sourceTree = "<group>"; };
 		DAE1E56D1A6F18ED00494EA1 /* rtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtp.h; sourceTree = "<group>"; };
 		DAE1E56E1A6F18ED00494EA1 /* rtp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rtp.m; sourceTree = "<group>"; };
+		DAE1E5761A6F1FAB00494EA1 /* rtp_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtp_audio.h; sourceTree = "<group>"; };
+		DAE1E5771A6F1FAB00494EA1 /* rtp_audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rtp_audio.m; sourceTree = "<group>"; };
+		DAE1E5791A6F201E00494EA1 /* AACADTSPacketizer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = AACADTSPacketizer.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,9 @@
 			children = (
 				DAE1E56D1A6F18ED00494EA1 /* rtp.h */,
 				DAE1E56E1A6F18ED00494EA1 /* rtp.m */,
+				DAE1E5791A6F201E00494EA1 /* AACADTSPacketizer.java */,
+				DAE1E5761A6F1FAB00494EA1 /* rtp_audio.h */,
+				DAE1E5771A6F1FAB00494EA1 /* rtp_audio.m */,
 			);
 			name = RTP;
 			sourceTree = "<group>";
@@ -266,6 +273,7 @@
 				841255D116A4848E001749D9 /* VideoEncoder.m in Sources */,
 				841255D616A5AB8B001749D9 /* MP4Atom.m in Sources */,
 				DAE1E56F1A6F18ED00494EA1 /* rtp.m in Sources */,
+				DAE1E5781A6F1FAB00494EA1 /* rtp_audio.m in Sources */,
 				841255D916A714B7001749D9 /* NALUnit.cpp in Sources */,
 				841255DC16A85472001749D9 /* RTSPServer.m in Sources */,
 				841255E516B14E45001749D9 /* RTSPClientConnection.mm in Sources */,
